@@ -1,0 +1,22 @@
+{
+    "name": "emilkje/testapp",
+    "description": "Dette er kun en testapp",
+    "authors": [
+        {
+            "name": "Emil Kjelsrud",
+            "email": "emilkje@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "filp/whoops": "1.*",
+        "symfony/http-foundation": "2.4.*@dev",
+        "symfony/console": "2.4.*@dev"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": {"Testapp": "src/"}
+    }
+}
