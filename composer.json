@@ -12,7 +12,9 @@
         "monolog/monolog": "1.0.*",
         "filp/whoops": "1.*",
         "symfony/http-foundation": "2.4.*@dev",
-        "symfony/console": "2.4.*@dev"
+        "symfony/console": "2.4.*@dev",
+        "symfony/event-dispatcher": "2.4.*@dev",
+        "symfony/http-kernel": "2.4.*@dev"
     },
     "require-dev": {
     },
